@@ -1,10 +1,10 @@
 name: Android CI
 
 on:
+  workflow_dispatch:   # 👈 this allows manual trigger from GitHub UI
   push:
     branches:
-      - main  # change if your branch name is different
-  pull_request:
+      - main
 
 jobs:
   build:
