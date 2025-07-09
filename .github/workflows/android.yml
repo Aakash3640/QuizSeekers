@@ -1,10 +1,10 @@
 name: Android CI
 
 on:
-  workflow_dispatch:   # 👈 this allows manual trigger from GitHub UI
+  workflow_dispatch:   # allows manual run from the Actions tab
   push:
     branches:
-      - main
+      - main  # change this if your default branch is something else
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
       run: ./gradlew assembleDebug
 
     - name: Upload debug APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4  # ✅ Updated to v4
       with:
         name: app-debug.apk
         path: app/build/outputs/apk/debug/app-debug.apk
