@@ -1,4 +1,4 @@
-2# 🧠 QuizSeekers
+# 🧠 QuizSeekers
 
 **QuizSeekers** is an interactive Android quiz application designed to help users test their knowledge across various subjects in an engaging and responsive UI. Built using Jetpack Compose, the app features seamless navigation, dynamic quiz loading, and modern design practices.
 
