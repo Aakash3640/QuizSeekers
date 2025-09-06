@@ -18,8 +18,6 @@
 - **Architecture**: MVVM
 - **Libraries**:
   - Retrofit – for API calls
-  - Coil – for image loading
-  - Accompanist – for pager support
   - Material3 – for consistent UI
 
 ## 📱 Screenshots
