@@ -40,3 +40,14 @@
 
 
 
+## 🤝 Contributing
+
+Contributions are always welcome!
+Fork this repository 🍴
+Create your feature branch 🌱
+Commit your changes 💡
+Push to the branch 🚀
+Open a Pull Request 🎉
+
+
+
